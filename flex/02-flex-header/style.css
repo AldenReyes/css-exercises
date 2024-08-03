@@ -1,6 +1,16 @@
-.header  {
+* {
+  font-family: 'Courier New', Courier, serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem;
+  margin: 0.5rem;
 }
 
 .logo {
@@ -14,6 +24,11 @@
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  gap: 0.75rem;
 }
 
 a {
